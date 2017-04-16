@@ -1,0 +1,805 @@
+/*Clearfix*/
+
+.cf::before,
+.cf::after {
+    content: " ";
+    display: table;
+}
+
+.cf::after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+
+/*General Style*/
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.6em;
+    padding-top: 1em;
+    font-size: .95em;
+}
+
+.home-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.blog-container {
+    font: 1em/1.4 'Merriweather', Georgia, sans-serif;
+    max-width: 600px;
+    line-height: 1.8em;
+    margin: 0 auto;
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+#words-container {
+    font: 1em/1.4 Cambria, Georgia, sans-serif;
+    color: #333;
+    background: #fff;
+    max-width: 500px;
+    padding: 0 0 50px;
+    margin: 0 auto;
+}
+
+.bubble {
+    padding-top: 1.5em;
+}
+
+
+.font {
+    font-family: 'Merriweather';
+}
+
+.centreParagraph {
+  padding: 1em;
+
+    text-align: center;
+}
+
+.footer-text {
+  margin-top: 2rem;
+  font-family: "Merriweather";
+}
+
+.marginbottom2em blockquote {
+  margin-bottom: 2em;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+
+/* Home Page Layout*/
+
+.textright {
+    text-align: right;
+}
+
+.left {
+    float: left;
+}
+
+.onethird {
+    width: 26%;
+    padding: 1.5em;
+}
+
+.twothirds {
+    width: 74%;
+    font-size: 0.8em;
+    padding: 2em;
+}
+
+#Contact p {
+    line-height: .6em;
+}
+
+/*Contact Form*/
+
+.form-style ul li {
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 1.4em;
+}
+
+.form-style ul  {
+padding: 0;
+margin: auto;
+}
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #000;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 10em;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
+
+
+/*Blog-Page Layout*/
+
+.current-article {
+    padding-bottom: 2em;
+}
+
+/*~~~Text and Links*~~~/
+
+/*Homepage Headers*/
+
+h2 {
+    padding-top: 0em;
+    margin-top: 0em;
+    color: #3d38db;
+}
+
+/*Blog Headers*/
+
+h1, h1.blog-page-title {
+    font-family: "Oswald";
+    text-align: center;
+    padding-top: 1em;
+}
+
+h1.blog-page-title {
+  padding-top: 1em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h2.blog-page-subtitle {
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    font-size: 1em;
+    color: black;
+}
+
+h3 {
+    font-family: "Oswald";
+}
+
+h1.portfolio-header {
+    font-family: "Oswald";
+    text-align: center;
+    padding-top: 1.5em;
+    line-height: .5em;
+    padding-bottom: 0;
+}
+
+h2.portfolio-description {
+  text-align: center;
+  font-size: .9em;
+  padding-top: 3em;
+  padding-bottom: 0;
+  margin: 0;
+  line-height: .4em;
+  color: black;
+}
+
+h2.p-name, h5.p-name {
+  line-height: .8em;
+  text-align: center;
+}
+
+
+h2.p-name {
+  color: black;
+  padding-top: 3em;
+  font-size: .9em;
+}
+
+
+
+[id="words-container"] h1 {
+  font: 1em/1.4 Cambria, Georgia, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding-top: .5em;
+    font-size: 2.5em;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    color: black;
+
+}
+
+#words-container h2{
+  font-size: 1em;
+    text-align: center;
+    padding-bottom: .5em;
+    margin-top: 0;
+    color: black;
+}
+
+h3.p-name {
+  font-size: .9em;
+	padding: 0;
+	margin: 0;
+	margin-bottom: .5em;
+	text-align: center;
+}
+
+article.centre-paragraph {
+  text-align: center;
+}
+
+
+
+/*Text & Links*/
+
+a {
+    color: #c52470;
+}
+
+a:hover {
+    color: #ec5311;
+}
+
+a.u-email {
+    color: #c52470;
+}
+
+a.u-email:hover {
+    color: #ec5311;
+}
+
+.contact {
+    padding: .3em;
+    text-align: center;
+}
+
+a.article-link {
+    color: #c52470;
+}
+
+a.article-link:hover {
+    font-family: "Oswald";
+    color: #ec5311;
+    text-decoration: none;
+    transition: all .1s ease;
+}
+
+/*Blog Page Stuff*/
+
+small {
+    color: #000;
+    font-size: .8em;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.portfolio img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.more img {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+  padding-bottom: 0.5em;
+}
+
+.border {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+img.imageScaling {
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 15%;
+  height: auto;
+  display: block;
+}
+
+span section div img.german-pictures, article img.daily-pictures, .gif-pictures img, article img {
+  display: block;
+margin: 0 auto;
+}
+
+.daily-pictures {
+  max-width: 500px;
+  max-height: auto;
+}
+
+.daily-pictures-small img {
+  width: 45%;
+  height: auto;
+  display: inline;
+  padding-bottom: 0.5em;
+}
+
+.morecontent span {
+    display: none;
+}
+
+.morelink {
+    display: block;
+    color: #c52470
+}
+
+.morelink:hover {
+    display: block;
+    color: #ec5311;
+}
+
+/*Speech Bubbles for Words Page*/
+
+.bubble {
+    position: relative;
+    padding: 15px;
+    margin: 1em 0 3em;
+    border: 5px solid #2F4F4F;
+    color: #333;
+    background: #fff;
+    /* css3 */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.bubble:before {
+  font-size: .8em;
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: #2F4F4F transparent;
+    display: block;
+    width: 0;
+}
+
+.bubble:after {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: 47px;
+    border-width: 13px 13px 0;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+}
+
+.bubbley {
+    position: relative;
+    padding: 15px;
+    margin: 1em 0 3em;
+    border: 5px solid #2F4F4F;
+    color: #333;
+    background: #fff;
+    /* css3 */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.bubbley:before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 40px;
+    border-width: 20px 20px 0;
+    border-style: solid;
+    border-color: #2F4F4F transparent;
+    display: block;
+    width: 0;
+}
+
+.bubbley:after {
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    right: 47px;
+    border-width: 13px 13px 0;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+}
+
+
+/*Images*/
+
+img {
+    max-width: 100%;
+}
+
+img.me {
+    padding-top: 6em;
+}
+
+/*Navigation*/
+
+.mobile, .mobileMenu {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 35px;
+    width: auto;
+    padding: 0
+}
+
+hr.style1 {
+    border-top: 1px solid black;
+    width: 700px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 50%;
+}
+
+nav ul a {
+    color: #c52470;
+    text-decoration: none;
+    transition: all .1s ease;
+}
+
+nav ul a:hover {
+    color: #ec5311;
+}
+
+nav ul li {
+    display: flex;
+    flex: 1 1 auto;
+    color: #c52470;
+}
+
+/*Back-to-top Button*/
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: #c52470 url(../img/arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+  border-radius: 10px;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #ec5311;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+/*~~~Responsive Design~~~*/
+
+
+/*Navigation*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait), only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape), only screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    hr {
+        display: none;
+    }
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    header {
+        width: 100%;
+        background: #3d38db;
+        height: 40px;
+        line-height: 60px;
+    }
+    .hamburger {
+        background: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 45px;
+        padding: 12px 15px 0px 15px;
+        color: #fff;
+        border: 0;
+        font-size: 1.9em;
+        font-weight: bold;
+        cursor: pointer;
+        outline: none;
+        z-index: 10000000000000;
+    }
+    .cross {
+        background: none;
+        position: absolute;
+        top: 0px;
+        right: 0;
+        padding: 13px 18px 0px 15px;
+        color: #fff;
+        border: 0;
+        font-size: 3.5em;
+        line-height: 65px;
+        font-weight: bold;
+        cursor: pointer;
+        outline: none;
+        z-index: 10000000000000;
+    }
+    .mobileMenu {
+        z-index: 1000000;
+        font-weight: bold;
+        font-size: 0.8em;
+        width: 100%;
+        background: white;
+        position: absolute;
+        text-align: center;
+    }
+    .mobileMenu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        list-style-image: none;
+    }
+    .mobileMenu li {
+        display: block;
+        padding: 15px 0 15px 0;
+        border-bottom: #3d38db 1px solid;
+    }
+    .mobileMenu li:hover {
+        display: block;
+        background: #181818;
+        padding: 15px 0 15px 0;
+        border-bottom: #3d38db 1px solid;
+    }
+    .mobileMenu ul li a {
+        text-decoration: none;
+        margin: 0px;
+        color: #c52470;
+    }
+    .mobileMenu ul li a:hover {
+        color: #ec5311;
+        text-decoration: none;
+    }
+    .mobileMenu a {
+        text-decoration: none;
+        color: white;
+    }
+    .mobileMenu a:hover {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+/*Home Layout*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait), only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape), only screen and (max-width: 768px) {
+
+h2 {
+    text-align: center;
+}
+    .onethird,
+    .twothirds {
+        width: 100%;
+        padding-bottom: 0em;
+        float: left;
+        font-size: 1em;
+    }
+    img.me {
+        padding-left: 2.2em;
+        padding-top: 0;
+    }
+    .logo {
+float: left;
+
+        margin: 15px;
+        border: 0;
+    }
+    .contact {
+        width: 100%;
+        font-size: 1.05em;
+        padding: 2em;
+    }
+}
+
+/*Blog Layout*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait), only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape), only screen and (max-width: 768px) {
+  .logo {
+      float: left;
+      padding: 0;
+      margin: 15px;
+      border: 0;
+  }
+  h1.blog-page-title {
+    padding-top: 2.5em;
+    padding-bottom: 0;
+    margin: 0;
+  }
+  .current-article img {
+      width: 90%;
+      height: 90%;
+      display: block;
+    margin: 0 auto;
+  }
+  span section div img.german-pictures {
+    width: 90%;
+    height: 90%;
+    display: block;
+  margin: 0 auto;
+  }
+  h5.p-name {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .blog-container {
+        width: 90%;
+
+    }
+    img {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .blog-container {
+        width: 90%;
+
+    }
+    img {
+        width: 90%;
+        height: 90%;
+    }
+    @media screen and (max-width: 360px) {
+        .blog-container {
+            max-width: 90%;
+
+        }
+        img {
+            width: 90%;
+            height: 90%;
+        }
+
+    }
+
+/*Words Bubble Layout*/
+
+@media screen and (max-width: 768px) {
+    #words-container {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    #words-container {
+        width: 90%;
+        text-align: center;
+    }
+
+@media screen and (max-width: 360px) {
+    #words-container {
+        max-width: 90%;
+        text-align: center;
+    }
+}
